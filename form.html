@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forom.html</title>
+    <link href="./Assets/style/index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <style>
+                .navbar {
+                    background-color: white;
+                }
+            </style>
+            <div class="favicon">
+                <a href="https://altschoolafrica.com/" target="_blank">
+                    <img src="./Assets/images/image 17.png" alt="AltSchoolAfrica logo" class="favicon-image"
+                        style="width: 40px;height: 40px;">
+                </a>
+            </div>
+            <div class="navlinks">
+                <a href="./index.html">Home</a>
+                <a href="./form.html">Get started </a>
+                <a href="./table.html">Schools</a>
+                <a href="./media.html">About me</a>
+            </div>
+            <div class="signin">Already an altschooler? <a class="signin-link"
+                    href="https://portal.altschoolafrica.com/auth/login" target="blank">Sign in!</a></div>
+        </nav>
+    </header>
+    <div class="form-page">
+        <div class="form-content">
+            <section class="form-hero">
+                <picture>
+                    <source srcset="" media="">
+                    <source srcset="" media="">
+                    <source srcset="" media="">
+                    <source srcset="" media="">
+                    <source srcset="" media="">
+                    <img src="./Assets/images/image 12.png" alt="alt school illustration">
+                </picture>
+                <h1>learn highly sought <br>after skills without <br>hassle</h1>
+            </section>
+            <br>
+            <br>
+            <footer class="footerlink">
+                <span class="links">
+                    <a href="https://x.com/altschoolafrica" target="_blank">
+                        <img src="./Assets/images/Vector (2).png" alt="" style="width:12px;height:12px;">
+                    </a>
+
+                    <a href="https://www.instagram.com/altschoolafrica/" target="_blank">
+                        <img src="./Assets/images/Group.png" alt="" style="width:12px;height:12px;">
+                    </a>
+
+                    <a href="https://web.facebook.com/AltSchoolAfrica" target="_blank">
+                        <img src="/Assets/images/Vector.png" alt="" style="width:12px;height:12px;">
+                    </a>
+
+                    <a href="https://www.linkedin.com/school/altschoolafrica" target="_blank">
+                        <img src="./Assets/images/Vector (1).png" alt="" style="width:12px;height:12px;">
+                    </a>
+
+                </span>
+                br
+                <div class="alt-number">
+                    <a href="tel:+0800ALTSCHOOL">Tel: 0800ALTSCHOOL</a>
+                </div>
+                <p>&copy; 2024 AltSchool Africa. All rights reserved.</p>
+            </footer>
+        </div>
+        <section class="form">
+            <h1>Signup</h1>
+            <p>Take the next steps to apply at AltSchool Africa</p>
+            <form action="" method="post">
+
+                <div class="form-group">
+                    <div class="form-field">
+                        <label for="user-firstname">First name</label>
+                        <input type="text" id="user-firstname" name="First name" placeholder="enter first name"
+                            required>
+                    </div>
+                    <div class="form-field">
+                        <label for="user-lastname">Last name</label>
+                        <input type="text" id="user-lastname" name="Last name" placeholder="enter last name" required>
+                    </div>
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <div class="form-field">
+                        <label for="Gender">Gender</label>
+                        <input type="text" id="Gender" list="Gender-options" placeholder="Select gender" required>
+                        <datalist id="Gender-options">
+                            <option value="Male"></option>
+                            <option value="Female"></option>
+                        </datalist>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="user-date-of-birth">Date of Birth</label>
+                        <input type="date" id="user-date-of-birth" name="Date of birth" required>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="form-field">
+                        <label for="user-email-address">Email Address</label>
+                        <input type="email" id="user-email-address" name="Email Address"
+                            placeholder="enter email address" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="user-phone-number">Phone Number</label>
+                        <input type="number" id="user-phone-number" name="Phone number" placeholder="08122340000"
+                            required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-field">
+                        <label for="Country">Country</label>
+                        <input type="text" id="Country" list="Country-List" placeholder="Select your Country" required>
+                        <datalist id="Country-List">
+                            <option value="Algeria"></option>
+                            <option value="Botswana"></option>
+                            <option value="Canada"></option>
+                            <option value="Ghana"></option>
+                            <option value="France"></option>
+                            <option value="Mali"></option>
+                            <option value="Nigeria"></option>
+                            <option value="South Africa"></option>
+                            <option value="Togo"></option>
+                            <option value="USA"></option>
+                            <option value="UK"></option>
+                            <option value="Zimbabwe"></option>
+                        </datalist>
+                    </div>
+                    <div class="form-field">
+                        <label for="user-residence">State/City of Residence</label required>
+                        <input type="text" id="user-residence" name="State/city of residence"
+                            placeholder="enter your state of residence">
+                    </div>
+                </div>
+
+
+                <div class="form-field">
+                    <label for="Channel">How did you hear about us?</label>
+                    <input type="text" id="Channel" list="Channel-List" placeholder="Select Channel" required>
+                    <datalist id="Channel-List">
+                        <option value="linkedin"></option>
+                        <option value="Youtube"></option>
+                        <option value="Friend"></option>
+                        <option value="WhatsApp"></option>
+                        <option value="instagram"></option>
+                        <option value="Bill board"></option>
+                        <option value="Sales officer"></option>
+                        <option value="other"></option>
+                    </datalist>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-field">
+                        <label for="user-password">Password</label>
+                        <input type="password" id="user-password" placeholder="enter password" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="user-password">Confirm Password</label>
+                        <input type="password" id="user-password" placeholder="enter password again" required>
+                    </div>
+                </div>
+
+                <div class="User-agreement">
+                    <label for="User-agreement">
+                        <input type="checkbox" name="User-agreement" id="User-agreement" required>
+                        By clicking continue, I agree to <a href="https://portal.altschoolafrica.com/auth/login">Terms
+                            Of Use</a>
+                        and acknowledge that i have read the <a href="https://portal.altschoolafrica.com/auth/login">
+                            <br> Privacy
+                            Policy</a> </label>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
